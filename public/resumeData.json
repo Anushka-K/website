@@ -2,41 +2,34 @@
   "main": {
     "name": "Anushka Kulshreshtha",
     "description": "I talk to people and computers",
-    "bio": "I'm a computing student at Grinnell College in the middle of nowhere., what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.  jhffjdhfkg \n dahausad \n sufyuishnf",
+    "bio": "I'm a tropical import to the midwest, having spent my life previously in India and Oman, and now in the cornfields as a Computer Science student at Grinnell College.",
+    "interest": "When not negotiating time-zones, I like to explore the intersection of technology and society. When not doing that either, I like to small talk, play pretend as an actor, show my Bhangra, Swing or Contra moves and blare my British-Asian bangers from my window (previously, on my radio show).",
+    "jobsearch": "As of this year, I'm also looking for full-time positions starting after my graduation in May 2021. So if you know of a Product Management, Developer, Designer position, or anything else I might find interesting, definitely hit that contact tab and let me know! (pretty plz.)",
     "image": "IMG_7865.jpg",
-    "contactmessage": "Get in touch! ",
+    "contactmessage": "I'm all ears! ",
     "email": "Kulshreshtha.anushka@gmail.com",
-    "phone": "555-555-5555",
+    "phone": "641-831-2315",
+    "messenger": "m.me/Coolshreshtha",
     "github": "https://github.com/anushka-k",
     "project": "https://github.com/nordicgiant2/react-nice-resume",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "PO Box 3990, Grinnell College",
+      "city": "Grinnell",
+      "state": "IA",
+      "zip": "50112"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "http://anushkakulshreshtha.me",
     "resumedownload": "https://drive.google.com/uc?export=download&id=1XnFrz_U-4H2L14XzG-FTC-JGDaVs_yjU",
     "social": [
       {
         "name": "facebook",
-        "url": "https://github.com/anushka-k",
+        "url": "http://m.me/Coolshreshtha",
         "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/anushkakulshreshtha/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
       },
       {
         "name": "github",
@@ -46,27 +39,65 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "",
     "education": [
       {
         "school": "Grinnell College",
         "degree": "Bachelors of Arts in Computer Science",
         "graduated": "May 2021",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "coursework": "With additional coursework in Math, English, Theater, Linguistics, Art, Sociology and Anthropology.",
+        "involvement": "Activities: Theater, Contra and Swing Society, trying not to freeze in Iowa winters, Board games club, KPop dance group, "
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Wilson Center For Innovation",
+        "title": "Events Liaison ",
+        "location": "Grinnell, IA",
+        "years": "October 2018 - Present",
+        "description": "Organized innovation and leadership events and created mentorship opportunities for the Grinnell community though relationships with Grinnell Alums and community partners"
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "GLIMMER Labs",
+        "title": "Student Researcher",
+        "location": "Grinnell, IA",
+        "years": "May 2020 - July 2020",
+        "description": "Revamped a 2014 project, Mathematical Image Synthesis Toolkit (MIST) over 10 weeks by deciphering legacy code for image rendering, rewriting UI in React, Konva and Bootstrap, and recreating backend database using Express and MongoDB "
+      },
+      {
+        "company": "Task Force and Belonging and Inclusion, SGA Grinnell",
+        "title": "Researcher",
+        "location": "Grinnell, IA",
+        "years": "January 2020-May 2020",
+        "description": "Designed a qualitative study to identify what affects student retention and belonging at Grinnell. The rollout was put on indefinite hiatus due to COVID-19 pandemic"
+      },
+      {
+        "company": "Endangered Languages Documentation Program",
+        "title": "Visiting Student Intern",
+        "location": "London, UK",
+        "years": "August 2019-December 2019",
+        "description": "Created projects like online database scraping, translation and coding feature entry for Hindi in Grambank database, to better understand the organisation "
+      },
+      {
+        "company": "Rootstalk Journal, The Center of Prairie Studies ",
+        "title": "Associate Editor",
+        "location": "Grinnell, IA",
+        "years": "January 2019-May 2019",
+        "description": "Put together a photo-essay on \"Little Mogadishu\" area of Minneapolis, in collaboration with a local photographer, and designed a study of the journal's readership. "
+      },
+      {
+        "company": "Grinnell College Wellness Department",
+        "title": "Wellness peer educator",
+        "location": "Grinnell, IA",
+        "years": "August 2018-May 2019",
+        "description": "Devised and carried out programming on sexual respect and self governance for Grinnell students, managing design, collaboration and outreach "
+      },
+      {
+        "company": "Alternate Language Study Option, Hindi I and II",
+        "title": "Designer and Instructor",
+        "location": "Grinnell, IA",
+        "years": "August 2018-May 2019",
+        "description": "Designed and taught Hindi coursework to beginners for about 6 hr/wk  "
       }
     ],
     "skills": [
@@ -93,9 +124,14 @@
       {
         "name": "Java",
         "level": "80%"
+      },
+      {
+        "name": "SQL",
+        "level": "50%"
       }
     ],
-    "resumedownload": "https://drive.google.com/uc?export=download&id=1XnFrz_U-4H2L14XzG-FTC-JGDaVs_yjU"
+    "interests": "British Asian Music, Acting, Board games, Pride and Prejudice, social dancing (Contra, Swing, Bhangra), Diaspora Stories about building a new home, Transport for London",
+    "resumedownload": "https://drive.google.com/uc?export=download&id=1FUfTo2JcWGmZTMvfh6BI2sIdLXhFwG9H"
   },
   "portfolio": {
     "projects": [

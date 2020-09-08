@@ -121,7 +121,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #0762f9;
+  color: #fe6928;
 }
 
 /* primary navigation
@@ -204,7 +204,7 @@ ul#nav li.current a {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #about a,
@@ -263,7 +263,6 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
-  height: 100vh;
 }
 
 #resume a,
@@ -281,29 +280,40 @@ ul#nav li.current a {
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #0762f9;
+  border-bottom: 3px solid #012b6f;
   padding-bottom: 6px;
 }
+#resume h2 {
+  text-align: center;
+  font: 30px/36px "opensans-bold", sans-serif;
+  display: flex;
+  justify-content: center;
+}
 #resume h3 {
+  font: 25px/30px "opensans-bold", sans-serif;
+}
+#resume h6 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
 
 #resume .header-col {
   padding-top: 9px;
+  align-content: center;
 }
 #resume .main-col {
   padding-right: 10%;
 }
 
 .education,
-.work {
+.work,
+.skill {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
-  color: #6e7881;
+  color: #5d6871;
   margin-bottom: 18px;
   margin-top: 9px;
 }
@@ -318,17 +328,21 @@ ul#nav li.current a {
 #resume .download {
   width: 58.33333%;
   padding-top: 6px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 #resume .main-col {
   padding-right: 5%;
 }
 #resume .download .button {
   margin-top: 6px;
-  background: rgb(0, 0, 0);
+  background: #333;
+  color: #ffffff;
 }
 #resume .download .button:hover {
   background: rgb(0, 0, 0);
-  color: #f5f5f5;
+  color: #fe6928;
 }
 #resume .download .button i {
   margin-right: 15px;
@@ -898,7 +912,6 @@ call-to-action .button {
   padding-top: 96px;
   padding-bottom: 102px;
   color: #636363;
-  height: 100vh;
 }
 #contact .section-head {
   margin-bottom: 42px;
@@ -915,34 +928,40 @@ call-to-action .button {
 
 #contact h1 {
   font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
   color: #ebeeee;
   margin-bottom: 6px;
+  text-align: center;
 }
 #contact h1 span {
   display: none;
 }
 #contact h1:before {
   font-family: "FontAwesome";
-  content: "\f0e0";
+  content: "\f086";
   padding-right: 10px;
   font-size: 72px;
   line-height: 72px;
   text-align: left;
-  float: left;
+  float: center;
   color: #ebeeee;
 }
 
+#contact h2 {
+  font: 30px/40px "opensans-bold", sans-serif;
+  color: #ebeeee;
+  margin-bottom: 6px;
+}
 #contact h4 {
   font: 16px/24px "opensans-bold", sans-serif;
   color: #ebeeee;
   margin-bottom: 6px;
 }
-#contact p.lead {
+/* #contact p.lead {
   font: 18px/36px "opensans-light", sans-serif;
   padding-right: 3%;
-}
+} */
 #contact .header-col {
   padding-top: 6px;
 }
@@ -1050,7 +1069,7 @@ call-to-action .button {
 footer {
   padding-top: 48px;
   margin-bottom: 48px;
-  color: #303030;
+  color: #9c9c9c;
   font-size: 14px;
   text-align: center;
   position: relative;
@@ -1058,11 +1077,11 @@ footer {
 
 footer a,
 footer a:visited {
-  color: #525252;
+  color: #fff;
 }
 footer a:hover,
 footer a:focus {
-  color: #fff;
+  color: #797979;
 }
 
 /* copyright */
@@ -1134,7 +1153,7 @@ footer .social-links li:first-child {
   border-radius: 100%;
 }
 #go-top a:hover {
-  background-color: #0f9095;
+  background-color: #fe6928;
 }
 
 .social .btn:first-child {

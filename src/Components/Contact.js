@@ -9,6 +9,7 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone = this.props.data.phone;
+      var messenger = this.props.data.messenger;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
@@ -16,15 +17,7 @@ class Contact extends Component {
     return (
       <section id="contact">
         <div className="row section-head">
-          {/*<div className="two columns header-col">*/}
-          <h1>
-            <span>Get In Touch.</span>
-          </h1>
-          {/*</div>*/}
-
-          <div className="ten columns">
-            <p className="lead">{message}</p>
-          </div>
+          <h1>{message}</h1>
         </div>
 
         <div className="row">
@@ -68,7 +61,40 @@ class Contact extends Component {
             </div>
           </div> */}
 
-          <aside className="four columns footer-widgets">
+          <aside className="six columns footer-widgets">
+            <div className="widget widget_contact">
+              <h4>For the snails and pigeons</h4>
+              <p className="address">
+                {name}
+                <br />
+                {street} <br />
+                {city}, {state} {zip}
+                <br />
+              </p>
+            </div>
+          </aside>
+          <aside className="six columns footer-widgets">
+            <div className="widget widget_contact">
+              <h4>Ring, Ping and Email</h4>
+              <p className="address">
+                <span>
+                  <i></i>
+                  {phone}
+                </span>
+                <br />
+                <span>
+                  <i></i>
+                  {messenger}
+                </span>
+                <br />
+                <span>
+                  <i></i>
+                  {email}
+                </span>
+              </p>
+            </div>
+          </aside>
+          {/* <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
@@ -81,7 +107,7 @@ class Contact extends Component {
               </p>
             </div>
 
-            {/* <div className="widget widget_tweets">
+             <div className="widget widget_tweets">
               <h4 className="widget-title">Latest Tweets</h4>
               <ul id="twitter">
                 <li>
@@ -108,8 +134,8 @@ class Contact extends Component {
                   </b>
                 </li>
               </ul>
-            </div> */}
-          </aside>
+            </div> 
+          </aside>*/}
         </div>
       </section>
     );
